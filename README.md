@@ -1,95 +1,38 @@
-# 🏅 Data Analytics Mini Project - Olympic Athletes Dashboard
+# 🛍️ Retail Store Sales Analysis
 
-Welcome to my **Power BI mini-project** repository! This project is focused on **analyzing Olympic athlete data** to uncover trends and insights about male and female participation, medal tallies, and country performance using interactive dashboards.
-
----
-
-## 📁 Repository Name
-**`data-analytics`**
+### 📘 Overview
+This project analyzes sales data from a retail store to understand revenue distribution, customer behavior, product performance, and payment preferences.  
+It involves data cleaning, exploratory data analysis (EDA), and visualization using Python and Jupyter Notebook.
 
 ---
 
-## 📊 Project Overview
-
-This project explores historical data of Olympic athletes to generate valuable insights using **Power BI**. The dashboard is divided into:
-
-- ✅ Home Page Overview
-- 🚹 Men’s Participation Dashboard
-- 🚺 Women’s Participation Dashboard
-
-The dashboards showcase:
-- Participation trends
-- Medal distribution
-- Top athletes
-- Country-wise analysis
-- Age-wise statistics
+### 📊 Key Features
+- Data Cleaning and Preprocessing  
+- Univariate, Bivariate, and Multivariate EDA  
+- Visualizations using Matplotlib and Seaborn  
+- Insights on product categories, customer spending, and seasonal trends  
 
 ---
 
-## 🗂️ Datasets Used
-
-- **athlete_events.csv / .xlsx**
-  - Contains details about athletes, such as name, age, sex, sport, event, medal, etc.
-  
-- **noc_regions.csv / .xlsx**
-  - Maps National Olympic Committee codes (NOC) to region names.
+### 🧠 Tools & Libraries
+- Python, Pandas, NumPy  
+- Matplotlib, Seaborn  
+- Jupyter Notebook  
 
 ---
 
-## 🔧 Tools and Technologies
-
-- 🛠️ Power BI
-- 🧪 Power Query (ETL)
-- 🧠 DAX (Data Analysis Expressions)
-- 🗂️ Excel for preprocessing
+### 📂 Files Included
+- `MAINProject Final report.ipynb` → Full analysis notebook  
+- `retail_store_sales.csv` → Dataset used for analysis  
+- `README.md` → Project summary  
 
 ---
 
-## 📌 Key Features
-
-- Cleaned and transformed data using **Power Query**
-  - Removed duplicates
-  - Handled missing values
-  - Filtered out “Ineligible” entries from medals
-- Created relationships between tables for proper **data modeling**
-- Used **measures and calculated columns** for accurate KPIs
-- Implemented **bookmarks** and **navigation buttons** for seamless UI
-- Separated views for **male and female athletes**
-- Included:
-  - Top countries by participation
-  - Medal tally charts
-  - Age group distribution
-  - Athlete-wise medal stats
-  - Sport-wise comparisons
+### ✨ Outcome
+The analysis identifies:
+- **Top-performing categories** like Butchers and Electric Essentials  
+- **Customer trends** toward digital payment methods  
+- **Seasonal spikes** in sales during mid-year and festive months  
 
 ---
 
-## 📌 Sample Visuals
-
-- 📍 Map: Global Participation by Region
-- 📊 Bar Chart: Top 20 Countries by Female Participation
-- 📈 Line Chart: Medal Trend Over Years
-- 🥇 Table: Top Athletes by Total Medals
-
----
-
-## 🚀 How to View the Dashboard
-
-1. Download the `.pbix` file from this repository.
-2. Open it in Power BI Desktop (latest version recommended).
-3. Navigate between pages using buttons and bookmarks.
-4. Interact with filters and visuals for exploration.
-
----
-
-
-
-## 📌 Note
-
-This mini-project was developed as part of a learning journey to understand real-world data analytics using Power BI. Contributions and suggestions are welcome!
-
----
-
-## 📄 License
-
-This project is open-source and free to use u
